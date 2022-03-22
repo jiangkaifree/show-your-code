@@ -6,11 +6,11 @@
 
 由于我是一位前段开发者，目前对领域外的语言了解不够，目前只支持前端相关的 `JavaScript` `React` `Vue` 等。适合前端开发者观看。
 
-[x]JavaScript
+- [x] JavaScript
 
-[x]Vue
+- [x]Vue
 
-[x]React
+- [x] React
 
 ## PR
 
