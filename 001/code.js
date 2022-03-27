@@ -1,4 +1,4 @@
-import { message } from 'antd'
+import { message } from "antd";
 
 function doAxios(p) {
   return axios({
@@ -23,7 +23,7 @@ const loginPlugin = function (params) {
     let pin = params ? params.pin : "111111";
     doAxios(params)
       .then((loginPin) => {
-        if (result && result.code === 0) {
+        if (loginPin && loginPin.code === 0) {
           doAxios({ type: "AuthenticationFirstStep", pin })
             .then((firstStep) => {
               firstStep.data = firstStep.data.replace(/\x00\x00/g, "");
