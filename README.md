@@ -9,7 +9,7 @@ JavaScript 是前端开发当中相当重要的一环，在 `react` 提倡的**�
 ## 题库
 
 ### 简单
-<a href="./questions/00013-warm-hello-world/README.zh-CN.md" target="_blank"><img src="https://img.shields.io/badge/-%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F-green" alt="1.块级作用域"/></a>
+<a href="./questions/01-easy-block-var/README.md" target="_blank"><img src="https://img.shields.io/badge/-%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F-green" alt="1.块级作用域"/></a>
 
 ### 中等
 
