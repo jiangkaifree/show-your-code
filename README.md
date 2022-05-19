@@ -1,4 +1,4 @@
-# JavaScript SEO
+# ES6
 
 ## 介绍
 
