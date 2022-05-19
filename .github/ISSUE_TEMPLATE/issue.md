@@ -1,3 +1,7 @@
+---
+name: issue template
+about: issue template
+---
 <!--
 小贴士：
 

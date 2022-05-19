@@ -1,3 +1,8 @@
+---
+name: bug template
+about: bug template
+---
+
 <!--
 小贴士：
 请用一句话描述一下你遇到的问题
