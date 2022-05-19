@@ -2,7 +2,7 @@
 
 ## 介绍
 
-JavaScript 是前端开发当中相当重要的一环，在 `react` 提倡的**纯函数** 理念下，似乎显得更加的重要一些。所以让我们来看看重要写出一些简洁明了的 `JavaScript` 代码。
+`JavaScript` 是前端开发当中重要的一环，尤其在提倡的 **纯函数**，**函数式** 理念下，似乎显得更加的重要一些。所以让我们来看看怎样写出一些简洁明了的 `JavaScript` 代码。
 
 本项目意在让你提升你的 `ES6` 编程能力，并且让你更加的熟悉 `ES6` (es2015及以后版本统称)的基本语法。 这将是非常重要的一部分，在这里你可以提出你在实际环境中遇到的代码片段，或者帮助他人解答疑惑 - 这些问题也可能被选中成为题库的一部分！
 
@@ -14,9 +14,12 @@ JavaScript 是前端开发当中相当重要的一环，在 `react` 提倡的**�
 ### 中等
 
 
+### 困难
+
+
 ## 推荐读物
 
-官方文档：[JavaScript 标准](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+- MDN：[JavaScript 标准](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 
 ## 参与贡献
 

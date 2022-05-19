@@ -27,11 +27,35 @@ try {
 
 点击上方的 `接受挑战` 开始编码！旅途愉快！👍🏻
 
-<br>
-
-<a href='' target="_blank">
+<a href='https://github.com/2462870727/show-your-code' target="_blank">
 <img alt='返回首页' src='https://img.shields.io/badge/-%E8%BF%94%E5%9B%9E%E9%A6%96%E9%A1%B5-lightgrey' />
 </a><a href='' target="_blank"><img alt='上一题' src='https://img.shields.io/badge/-%E2%AC%86%EF%B8%8F%E4%B8%8A%E4%B8%80%E9%A2%98-orange' /></a>
 <a href='' target="_blank">
 <img alt='下一题' src='https://img.shields.io/badge/-%E2%AC%87%EF%B8%8F%E4%B8%8B%E4%B8%80%E9%A2%98-success' />
-</a><a href="https://tsch.js.org/13/answer/zh-CN" target="_blank"><img src="https://img.shields.io/badge/-%E5%88%86%E4%BA%AB%E4%BD%A0%E7%9A%84%E8%A7%A3%E7%AD%94-teal" alt="分享你的解答"/></a> <a href="https://github.com/2462870727/show-your-code/issues?q=01+label%3Aanswer+" target="_blank"><img src="https://img.shields.io/badge/-%E6%9F%A5%E7%9C%8B%E8%A7%A3%E7%AD%94-de5a77?logo=awesome-lists&logoColor=white" alt="查看解答"/></a>
+</a>
+
+<br>
+<details><summary>查看 👀 答案</summary>
+
+<br>
+
+```js
+if (true) {
+  var foo = 1; // 使用 let
+}
+try {
+  ++foo
+  console.log(foo)
+} catch {
+  console.log('success')
+}
+```
+> `const` , `let` 会避免提升变量，形成局部作用域。但注意⚠️这里 由于 foo 自增。所以应当使用 `let`
+
+<br>
+
+</details>
+
+<br>
+
+## 相关学习
