@@ -8,13 +8,19 @@
 
 ## 题库
 
-### 简单
-<a href="./questions/01-easy-block-var/README.md" target="_blank"><img src="https://img.shields.io/badge/-%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F-green" alt="1.块级作用域"/></a>
+### <img src="https://img.shields.io/badge/简单😊-2-%23f39c12" />
 
-### 中等
+<a href="./questions/01-easy-block-var/README.md" target="_blank"><img src="https://img.shields.io/badge/-01%20块级作用域-%23f39c12" alt="1.块级作用域"/></a>
+<a href="./questions/02-much-statement/README.md" target="_blank"><img src="https://img.shields.io/badge/-02%20重复声明-%23f39c12" alt="1.块级作用域"/></a>
+
+### <img src="https://img.shields.io/badge/中等🙂-1-%23d35400" />
+
+<a href="./questions/01-easy-block-var/README.md" target="_blank"><img src="https://img.shields.io/badge/04%20删除对象空属性-%23d35400" alt="04.删除对象空属性"/></a>
 
 
-### 困难
+### <img src="https://img.shields.io/badge/困难😭-1-%23c0392b" />
+
+<a href="./questions/01-easy-block-var/README.md" target="_blank"><img src="https://img.shields.io/badge/03%20promiseAll-2-%23d35400" alt="03.promiseAll"/></a>
 
 
 ## 推荐读物
@@ -32,5 +38,3 @@
 - 分享你在真实项目中遇到的代码片段（无论你找到答案与否）大家会一起帮你找到解决的思路
 - 通过在 Issue 下留言帮助他人
 - 如果你认为讲解的不对，你也可以提交对应的 Issue
-
-
