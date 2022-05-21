@@ -29,8 +29,8 @@ try {
 
 <a href='https://github.com/2462870727/show-your-code' target="_blank">
 <img alt='返回首页' src='https://img.shields.io/badge/-%E8%BF%94%E5%9B%9E%E9%A6%96%E9%A1%B5-lightgrey' />
-</a><a href='' target="_blank"><img alt='上一题' src='https://img.shields.io/badge/-%E2%AC%86%EF%B8%8F%E4%B8%8A%E4%B8%80%E9%A2%98-orange' /></a>
-<a href='' target="_blank">
+</a>
+<a href='https://github.com/2462870727/show-your-code/blob/main/questions/02-much-statement/README.md' target="_blank">
 <img alt='下一题' src='https://img.shields.io/badge/-%E2%AC%87%EF%B8%8F%E4%B8%8B%E4%B8%80%E9%A2%98-success' />
 </a><a href="https://github.com/2462870727/show-your-code/issues/new?title=01-easy-block-var&labels=answer&template=issue.md" ><img src='https://img.shields.io/badge/-%E6%88%91%E6%9C%89%E6%9B%B4%E5%A5%BD%E7%9A%84%E8%A7%A3%E7%AD%94-blue' alt='我有更好的答案' /></a>
 
@@ -50,6 +50,7 @@ try {
   console.log('success')
 }
 ```
+
 > `const` , `let` 会避免提升变量，形成局部作用域。但注意⚠️这里 由于 foo 自增。所以应当使用 `let`
 
 <br>
