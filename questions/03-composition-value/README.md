@@ -1,16 +1,17 @@
 
 # 解构赋值
 
-在这个挑战中，你需要优化下方的代码。
+优化下面的 `function`, 并且不改变它的输出结果
 
 <a><img src='https://img.shields.io/badge/-%E5%BC%80%E5%A7%8B%E6%8C%91%E6%88%98-blue'/></a>
 
 ```js
-const result = await getUsers()
-if (result.code === 0) {
-  setUsers(result.data)
-} else {
-  console.log(result.message)
+function getData(result) {
+  if (result.code === 0) {
+    return result.data
+  } else {
+    return result.message
+  }
 }
 ```
 
@@ -29,15 +30,17 @@ if (result.code === 0) {
 <br>
 
 ```js
-const { code, data, errMessage} = await getUsers()
-if (code === 0) {
-  setUsers(data)
-} else {
-  console.log(errMessage)
+function getData(result) {
+  const { code, data, errMessage } = result
+  if (code === 0) {
+    return data
+  } else {
+    return message
+  }
 }
 ```
 
-> `ES6` 当中的解构赋值，能很大程度上避免我们出现又臭又长的 `.` 。比如这里的 `result.`
+`ES6` 当中的解构赋值，能很大程度上避免我们出现又臭又长的 `.` 。比如这里的 `result.`
 
 <br>
 </details>

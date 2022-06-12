@@ -1,18 +1,17 @@
 
 # 重复声明
 
-
-在这个挑战中，你需要优化下方的代码。
+优化下面的 `function`, 并且不改变它的输出结果
 
 <a><img src='https://img.shields.io/badge/-%E5%BC%80%E5%A7%8B%E6%8C%91%E6%88%98-blue'/></a>
 
 ```js
-if (agencyList.length < 0) {
-  agencyList.length + 1
-  // other
-} else {
-  agencyList.length - 1
-  // other
+function setLength(list) {
+  if (list.length < 0) {
+    return list.length + 1
+  } else {
+    return list.length - 1
+  }
 }
 ```
 
@@ -32,17 +31,17 @@ if (agencyList.length < 0) {
 <br>
 
 ```js
-let length = agencyList.length
-if (length < 0) {
-  length + 1
-  // other
-} else {
-  length - 1
-  // other
+function setLength(list) {
+  let length = list.length
+  if (length < 0) {
+    return length + 1
+  } else {
+    return length - 1
+  }
 }
 ```
 
-> `agencyList.length` 重复的属性获取，我们应当尽可能提取出来。这样做更简洁明了。
+`agencyList.length` 重复的属性获取，我们应当尽可能提取出来。这样做更简洁明了，且便于维护。
 
 <br>
 

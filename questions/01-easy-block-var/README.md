@@ -1,27 +1,15 @@
-
 # 块级作用域
 
-这个简单的案例希望让你可以快速上手。在这里，我们使用了一些神奇的技巧让 `Javascript` 达到我们想要的效果。或是对应的输出，又或者是一段简洁明了的优化。
-
-在这个挑战中，你需要修改下方的代码使得测试通过。
+期望下面 `function` 返回 `1` 而不是 `2`
 
 <a><img src='https://img.shields.io/badge/-%E5%BC%80%E5%A7%8B%E6%8C%91%E6%88%98-blue'/></a>
-
 ```js
-// 期望 foo 是一个块级作用域的变量
-var foo = 1
-```
-
-```js
-// 你需要使得下面代码输出 success 而不是 2
-if (true) {
+function getNumber() {
   var foo = 1; // 只修改这行
-}
-try {
-  ++foo
-  console.log(foo)
-} catch {
-  console.log('success')
+  try {
+    ++foo
+  } catch {}
+  return foo
 }
 ```
 
@@ -40,18 +28,16 @@ try {
 <br>
 
 ```js
-if (true) {
-  var foo = 1; // 使用 let
-}
-try {
-  ++foo
-  console.log(foo)
-} catch {
-  console.log('success')
+function getNumber() {
+  const foo = 1; // 使用 const 声明变量
+  try {
+    ++foo
+  } catch {}
+  return foo
 }
 ```
 
-> `const` , `let` 会避免提升变量，形成局部作用域。但注意⚠️这里 由于 foo 自增。所以应当使用 `let`
+使用 `const` , `let` 会避免提升变量，形成局部作用域。但注意⚠️这里 由于 foo 自增。所以应当使用 `let`
 
 <br>
 
