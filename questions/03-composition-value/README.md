@@ -15,7 +15,7 @@ function getData(result) {
 }
 ```
 
-点击上方的 `接受挑战` 开始编码！旅途愉快！👍🏻
+点击上方的 **接受挑战** 开始编码！旅途愉快！👍🏻
 
 <a href='https://github.com/2462870727/show-your-code' target="_blank">
 <img alt='返回首页' src='https://img.shields.io/badge/-%E8%BF%94%E5%9B%9E%E9%A6%96%E9%A1%B5-lightgrey' />
